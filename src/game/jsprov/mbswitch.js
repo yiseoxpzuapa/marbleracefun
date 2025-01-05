@@ -8,6 +8,7 @@ function changeMB() {
   }
   var image2 = document.getElementById("myMarble");
   image2.src = imageList1[index];
+  console.log("marble switched")
 }
 
 //testingphases 2

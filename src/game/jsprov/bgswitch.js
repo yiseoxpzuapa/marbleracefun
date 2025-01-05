@@ -8,6 +8,7 @@ function changeBG() {
   }
   var image1 = document.getElementById("myBackground");
   image1.src = imageList3[index];
+  console.log("bg switched")
 }
 
 //testingphases 3
