@@ -6,7 +6,7 @@ function changeBG() {
   if (index == imageList.length) {
      index = 0;
   }
-  var image1 = document.getElementById("myImage");
+  var image1 = document.getElementById("myBackground");
   image1.src = imageList[index];
 }
 
