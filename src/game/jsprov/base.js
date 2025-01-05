@@ -7,39 +7,39 @@
 
 
 // bg
-this.main;
-this.mainHeight = 460;
-this.mainWidth = 445;
-this.context;
+let main = document.getElementById("main");
+let canvas = document.getElementById("ctx");
+let mainHeight = 460;
+let mainWidth = 445;
+let context = canvas.getContext("2d");
 
 
 //class
-window.onload = function() {
-    main = document.getElementById("main");
-    myCanvas = document.getElementById('canvas');
-    main.Height = mainHeight;
-    main.Width = mainWidth;
-}
+//window.onload = function() {
+    main.style.height = mainHeight;
+    main.style.width = mainWidth;
 
-//marble
-this.marbleHeight = 50;
-this.marbleWidth = 50;
-this.marbleY = mainWidth/2 - marbleWidth
-this.marbleX = mainHeight/2 - marbleHeight
+    //marble
+    let marbleHeight = 50;
+    let marbleWidth = 50;
+    let marbleY = mainWidth/2 - marbleWidth
+    let marbleX = mainHeight/2 - marbleHeight
 
-this.marble = {
-    x : marbleX,
-    y : marbleY,
-    height : marbleHeight,
-    width : marbleWidth
-}
+    let marble = {
+        x : marbleX,
+        y : marbleY,
+        height : marbleHeight,
+        width : marbleWidth
+    }
 
 
 
-//drawmarble
-context = canvas.getContext("2d");
-context.fillStyle = "green";
-context.fillRect(marble.X, marble.Y, marble.height, marble.width);
+    //drawmarble
+    context.fillStyle = "green";
+    context.fillRect(marble.x, marble.y, marble.height, marble.width);
+//}
+
+
 
 
 
