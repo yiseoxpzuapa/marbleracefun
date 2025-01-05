@@ -26,6 +26,7 @@ let context = canvas.getContext("2d");
     let marbleX = mainHeight/2 - marbleHeight
 
     let marble = {
+        img : null,
         x : marbleX,
         y : marbleY,
         height : marbleHeight,
@@ -37,6 +38,14 @@ let context = canvas.getContext("2d");
     //drawmarble
     context.fillStyle = "green";
     context.fillRect(marble.x, marble.y, marble.height, marble.width);
+
+    //dmimage
+    marble1 = new Image();
+    marble1.src = "./marble1.png";
+    marble.img = marble1;
+    marble1.onload = function() {
+        context.drawImage(marble.img, marble.x, marble.y, marble.height, marble.width);
+    }
 //}
 
 
