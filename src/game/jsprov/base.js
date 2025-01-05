@@ -2,9 +2,9 @@
 // ok im bouta crash out i was in Inspect and realized that VSC accidentally imported the first line to ESC and i didnt realize
 
 
-import playermodel from './playermod/model';
 
-class ServerPacket {
+
+class Player {
     constructor(player, client) {
         this.player = player;
         this.client = client;
@@ -16,4 +16,4 @@ class ServerPacket {
     }
 }
 
-export default player;  
+module.exports = player;
