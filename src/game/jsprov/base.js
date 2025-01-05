@@ -1,4 +1,5 @@
 // HEAVY WIP NOT FULLY DONE (ill fix this later)
+// ok im bouta crash out i was in Inspect and realized that VSC accidentally imported the first line to ESC and i didnt realize
 
 
 import playermodel from './playermod/model';
