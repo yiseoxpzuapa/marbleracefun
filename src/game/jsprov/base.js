@@ -1,29 +1,46 @@
 
 // bug filled :/ ill fix this later
 
+
+//extra
+
+
+
 // bg
-let main;
-let context;
+this.main;
+this.mainHeight = 460;
+this.mainWidth = 445;
+this.context;
+
 
 //class
 window.onload = function() {
     main = document.getElementById("main");
-    context = main.getAttribute("2d")
+    myCanvas = document.getElementById('canvas');
     main.Height = mainHeight;
     main.Width = mainWidth;
 }
 
 //marble
-let marbleHeight = 50;
-let marbleWidth = 50;
-let marbleY = mainWidth/2 - marbleWidth
-let marbleX = mainHeight/2 - marbleHeight
+this.marbleHeight = 50;
+this.marbleWidth = 50;
+this.marbleY = mainWidth/2 - marbleWidth
+this.marbleX = mainHeight/2 - marbleHeight
 
-let marble = {
+this.marble = {
     x : marbleX,
     y : marbleY,
     height : marbleHeight,
     width : marbleWidth
 }
+
+
+
+//drawmarble
+context = canvas.getContext("2d");
+context.fillStyle = "green";
+context.fillRect(marble.X, marble.Y, marble.height, marble.width);
+
+
 
 // dealing with adding images later especially cause selection
