@@ -9,3 +9,5 @@ function changeBG() {
   var image1 = document.getElementById("myImage");
   image1.src = imageList[index];
 }
+
+//testingphases
