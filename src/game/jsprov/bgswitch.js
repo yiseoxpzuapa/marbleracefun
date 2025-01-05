@@ -3,7 +3,7 @@ var imageList2 = ['https://github.com/yiseoxpzuapa/marbleracefun/blob/main/img/b
 
 function changeBG() {
   index = index + 1;
-  if (index == imageList.length) {
+  if (index == imageList2.length) {
      index = 0;
   }
   var image1 = document.getElementById("myBackground");
