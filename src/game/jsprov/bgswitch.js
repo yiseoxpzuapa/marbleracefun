@@ -10,4 +10,4 @@ function changeBG() {
   image1.src = imageList[index];
 }
 
-//testingphases
+//testingphases 2
