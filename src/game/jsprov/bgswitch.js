@@ -7,7 +7,7 @@ function changeBG() {
      index = 0;
   }
   var image1 = document.getElementById("myBackground");
-  image1.src = imageList2[index];
+  image1.src = imageList3[index];
 }
 
 //testingphases 3
