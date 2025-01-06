@@ -1,5 +1,5 @@
 var index = 0;
-var imageList1 = ['https://github.com/yiseoxpzuapa/marbleracefun/blob/f008b5636374196f842f3c7cbab4b2fc4955af0e/img/marble1.png?raw=true', 'https://github.com/yiseoxpzuapa/marbleracefun/blob/f008b5636374196f842f3c7cbab4b2fc4955af0e/img/marble2.png?raw=true', 'https://github.com/yiseoxpzuapa/marbleracefun/blob/f008b5636374196f842f3c7cbab4b2fc4955af0e/img/marble3.png?raw=true'];
+var imageList1 = ['https://github.com/yiseoxpzuapa/marbleracefun/blob/7583f4f4c716d03f4ddfdb7d6ea4e815877ac65e/src/game/jsprov/marble1.png', 'https://github.com/yiseoxpzuapa/marbleracefun/blob/7583f4f4c716d03f4ddfdb7d6ea4e815877ac65e/src/game/jsprov/marble2.png', 'https://github.com/yiseoxpzuapa/marbleracefun/blob/7583f4f4c716d03f4ddfdb7d6ea4e815877ac65e/src/game/jsprov/marble3.png'];
 
 function changeMB() {
   index = index + 1;
