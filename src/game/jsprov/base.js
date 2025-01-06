@@ -1,4 +1,5 @@
 
+
 // bug filled :/ ill fix this later
 
 
@@ -41,7 +42,8 @@ let context = canvas.getContext("2d");
 
     //dmimage
     marble1 = new Image();
-    marble1.src = "./marble1.png";
+const newLocal = "https://raw.githubusercontent.com/yiseoxpzuapa/marbleracefun/f008b5636374196f842f3c7cbab4b2fc4955af0e/img/marble1.png";
+marble1.src = newLocal;
     marble.img = marble1;
     marble1.onload = function() {
         context.drawImage(marble.img, marble.x, marble.y, marble.height, marble.width);
