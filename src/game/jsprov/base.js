@@ -42,7 +42,7 @@ let context = canvas.getContext("2d");
 
     //dmimage
     marble1 = new Image();
-const newLocal = "https://raw.githubusercontent.com/yiseoxpzuapa/marbleracefun/f008b5636374196f842f3c7cbab4b2fc4955af0e/img/marble1.png";
+const newLocal = "https://raw.githubusercontent.com/yiseoxpzuapa/marbleracefun/b59a44f2f374f1d875b134c2ee1c6b92781a60d7/src/game/jsprov/marble1.png";
 marble1.src = newLocal;
     marble.img = marble1;
     marble1.onload = function() {
